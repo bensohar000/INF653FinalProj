@@ -1,0 +1,502 @@
+[
+    {
+      "state": "Alabama",
+      "code": "AL",
+      "nickname": "Yellowhammer State",
+      "capital_city": "Montgomery",
+      "population": 4903185,
+      "admission_date": "December 14, 1819",
+      "admission_number": 22,
+      "border": ["Tennessee", "Georgia", "Florida", "Mississippi"]
+    },
+    {
+      "state": "Alaska",
+      "code": "AK",
+      "nickname": "The Last Frontier",
+      "capital_city": "Juneau",
+      "population": 731545,
+      "admission_date": "January 3, 1959",
+      "admission_number": 49,
+      "border": []
+    },
+    {
+      "state": "Arizona",
+      "code": "AZ",
+      "nickname": "The Grand Canyon State",
+      "capital_city": "Phoenix",
+      "population": 7278717,
+      "admission_date": "February 14, 1912",
+      "admission_number": 48,
+      "border": ["Utah", "Colorado", "New Mexico", "California", "Nevada"]
+    },
+    {
+      "state": "Arkansas",
+      "code": "AR",
+      "nickname": "The Natural State",
+      "capital_city": "Little Rock",
+      "population": 3017804,
+      "admission_date": "June 15, 1836",
+      "admission_number": 25,
+      "border": ["Missouri", "Tennessee", "Mississippi", "Louisiana", "Texas", "Oklahoma"]
+    },
+    {
+      "state": "California",
+      "code": "CA",
+      "nickname": "The Golden State",
+      "capital_city": "Sacramento",
+      "population": 39512223,
+      "admission_date": "September 9, 1850",
+      "admission_number": 31,
+      "border": ["Oregon", "Nevada", "Arizona"]
+    },
+    {
+      "state": "Colorado",
+      "code": "CO",
+      "nickname": "The Centennial State",
+      "capital_city": "Denver",
+      "population": 5758736,
+      "admission_date": "August 1, 1876",
+      "admission_number": 38,
+      "border": ["Wyoming", "Nebraska", "Kansas", "Oklahoma", "New Mexico", "Utah"]
+    },
+    {
+      "state": "Connecticut",
+      "code": "CT",
+      "nickname": "The Constitution State",
+      "capital_city": "Hartford",
+      "population": 3565287,
+      "admission_date": "January 9, 1788",
+      "admission_number": 5,
+      "border": ["Massachusetts", "Rhode Island", "New York"]
+    },
+    {
+      "state": "Delaware",
+      "code": "DE",
+      "nickname": "The First State",
+      "capital_city": "Dover",
+      "population": 973764,
+      "admission_date": "December 7, 1787",
+      "admission_number": 1,
+      "border": ["Pennsylvania", "New Jersey", "Maryland"]
+    },
+    {
+      "state": "Florida",
+      "code": "FL",
+      "nickname": "The Sunshine State",
+      "capital_city": "Tallahassee",
+      "population": 21477737,
+      "admission_date": "March 3, 1845",
+      "admission_number": 27,
+      "border": ["Georgia", "Alabama"]
+    },
+    {
+      "state": "Georgia",
+      "code": "GA",
+      "nickname": "The Peach State",
+      "capital_city": "Atlanta",
+      "population": 10617423,
+      "admission_date": "January 2, 1788",
+      "admission_number": 4,
+      "border": ["Tennessee", "North Carolina", "South Carolina", "Florida", "Alabama"]
+    },
+    {
+      "state": "Hawaii",
+      "code": "HI",
+      "nickname": "The Aloha State",
+      "capital_city": "Honolulu",
+      "population": 1415872,
+      "admission_date": "August 21, 1959",
+      "admission_number": 50,
+      "border": []
+    },
+    {
+      "state": "Idaho",
+      "code": "ID",
+      "nickname": "The Gem State",
+      "capital_city": "Boise",
+      "population": 1787065,
+      "admission_date": "July 3, 1890",
+      "admission_number": 43,
+      "border": ["Montana", "Wyoming", "Utah", "Nevada", "Oregon", "Washington"]
+    },
+    {
+      "state": "Illinois",
+      "code": "IL",
+      "nickname": "The Prairie State",
+      "capital_city": "Springfield",
+      "population": 12671821,
+      "admission_date": "December 3, 1818",
+      "admission_number": 21,
+      "border": ["Wisconsin", "Michigan", "Indiana", "Kentucky", "Missouri", "Iowa"]
+    },
+    {
+      "state": "Indiana",
+      "code": "IN",
+      "nickname": "The Hoosier State",
+      "capital_city": "Indianapolis",
+      "population": 6732219,
+      "admission_date": "December 11, 1816",
+      "admission_number": 19,
+      "border": ["Michigan", "Ohio", "Kentucky", "Illinois"]
+    },
+    {
+      "state": "Iowa",
+      "code": "IA",
+      "nickname": "The Hawkeye State",
+      "capital_city": "Des Moines",
+      "population": 3155070,
+      "admission_date": "December 28, 1846",
+      "admission_number": 29,
+      "border": ["Minnesota", "Wisconsin", "Illinois", "Missouri", "Nebraska", "South Dakota"]
+    },
+    {
+      "state": "Kansas",
+      "code": "KS",
+      "nickname": "The Sunflower State",
+      "capital_city": "Topeka",
+      "population": 2913314,
+      "admission_date": "January 29, 1861",
+      "admission_number": 34,
+      "border": ["Nebraska", "Missouri", "Oklahoma", "Colorado"]
+    },
+    {
+      "state": "Kentucky",
+      "code": "KY",
+      "nickname": "The Bluegrass State",
+      "capital_city": "Frankfort",
+      "population": 4467673,
+      "admission_date": "June 1, 1792",
+      "admission_number": 15,
+      "border": ["Ohio", "West Virginia", "Virginia", "Tennessee", "Missouri", "Illinois", "Indiana"]
+    },
+    {
+      "state": "Louisiana",
+      "code": "LA",
+      "nickname": "The Pelican State",
+      "capital_city": "Baton Rouge",
+      "population": 4648794,
+      "admission_date": "April 30, 1812",
+      "admission_number": 18,
+      "border": ["Arkansas", "Mississippi", "Texas"]
+    },
+    {
+      "state": "Maine",
+      "code": "ME",
+      "nickname": "The Pine Tree State",
+      "capital_city": "Augusta",
+      "population": 1344212,
+      "admission_date": "March 15, 1820",
+      "admission_number": 23,
+      "border": ["New Hampshire"]
+    },
+    {
+      "state": "Maryland",
+      "code": "MD",
+      "nickname": "The Old Line State",
+      "capital_city": "Annapolis",
+      "population": 6045680,
+      "admission_date": "April 28, 1788",
+      "admission_number": 7,
+      "border": ["Pennsylvania", "Delaware", "Virginia", "West Virginia"]
+    },
+    {
+      "state": "Massachusetts",
+      "code": "MA",
+      "nickname": "The Bay State",
+      "capital_city": "Boston",
+      "population": 6892503,
+      "admission_date": "February 6, 1788",
+      "admission_number": 6,
+      "border": ["Vermont", "New Hampshire", "Rhode Island", "Connecticut", "New York"]
+    },
+    {
+      "state": "Michigan",
+      "code": "MI",
+      "nickname": "The Great Lakes State",
+      "capital_city": "Lansing",
+      "population": 9986857,
+      "admission_date": "January 26, 1837",
+      "admission_number": 26,
+      "border": ["Wisconsin", "Indiana", "Ohio"]
+    },
+    {
+      "state": "Minnesota",
+      "code": "MN",
+      "nickname": "The North Star State",
+      "capital_city": "Saint Paul",
+      "population": 5639632,
+      "admission_date": "May 11, 1858",
+      "admission_number": 32,
+      "border": ["Wisconsin", "Iowa", "South Dakota", "North Dakota"]
+    },
+    {
+      "state": "Mississippi",
+      "code": "MS",
+      "nickname": "The Magnolia State",
+      "capital_city": "Jackson",
+      "population": 2976149,
+      "admission_date": "December 10, 1817",
+      "admission_number": 20,
+      "border": ["Tennessee", "Alabama", "Louisiana", "Arkansas"]
+    },
+    {
+      "state": "Missouri",
+      "code": "MO",
+      "nickname": "The Show Me State",
+      "capital_city": "Jefferson City",
+      "population": 6137428,
+      "admission_date": "August 10, 1821",
+      "admission_number": 24,
+      "border": ["Iowa", "Illinois", "Kentucky", "Tennessee", "Arkansas", "Oklahoma", "Kansas", "Nebraska"]
+    },
+    {
+      "state": "Montana",
+      "code": "MT",
+      "nickname": "The Treasure State",
+      "capital_city": "Helena",
+      "population": 1068778,
+      "admission_date": "November 8, 1889",
+      "admission_number": 41,
+      "border": ["North Dakota", "South Dakota", "Wyoming", "Idaho"]
+    },
+    {
+      "state": "Nebraska",
+      "code": "NE",
+      "nickname": "The Cornhusker State",
+      "capital_city": "Lincoln",
+      "population": 1934408,
+      "admission_date": "March 1, 1867",
+      "admission_number": 37,
+      "border": ["South Dakota", "Iowa", "Missouri", "Kansas", "Colorado", "Wyoming"]
+    },
+    {
+      "state": "Nevada",
+      "code": "NV",
+      "nickname": "The Silver State",
+      "capital_city": "Carson City",
+      "population": 3080156,
+      "admission_date": "October 31, 1864",
+      "admission_number": 36,
+      "border": ["Oregon", "Idaho", "Utah", "Arizona", "California"]
+    },
+    {
+      "state": "New Hampshire",
+      "code": "NH",
+      "nickname": "The Granite State",
+      "capital_city": "Concord",
+      "population": 1359711,
+      "admission_date": "June 21, 1788",
+      "admission_number": 9,
+      "border": ["Vermont", "Maine", "Massachusetts"]
+    },
+    {
+      "state": "New Jersey",
+      "code": "NJ",
+      "nickname": "The Garden State",
+      "capital_city": "Trenton",
+      "population": 8882190,
+      "admission_date": "December 18, 1787",
+      "admission_number": 3,
+      "border": ["New York", "Delaware", "Pennsylvania"]
+    },
+    {
+      "state": "New Mexico",
+      "code": "NM",
+      "nickname": "The Land of Enchantment",
+      "capital_city": "Santa Fe",
+      "population": 2096829,
+      "admission_date": "January 6, 1912",
+      "admission_number": 47,
+      "border": ["Colorado", "Oklahoma", "Texas", "Arizona", "Utah"]
+    },
+    {
+      "state": "New York",
+      "code": "NY",
+      "nickname": "The Empire State",
+      "capital_city": "Albany",
+      "population": 19453561,
+      "admission_date": "July 26, 1788",
+      "admission_number": 11,
+      "border": ["Vermont", "Massachusetts", "Connecticut", "New Jersey", "Pennsylvania"]
+    },
+    {
+      "state": "North Carolina",
+      "code": "NC",
+      "nickname": "The Tar Heel State",
+      "capital_city": "Raleigh",
+      "population": 10488084,
+      "admission_date": "November 21, 1789",
+      "admission_number": 12,
+      "border": ["Virginia", "Tennessee", "Georgia", "South Carolina"]
+    },
+    {
+      "state": "North Dakota",
+      "code": "ND",
+      "nickname": "The Peace Garden State",
+      "capital_city": "Bismarck",
+      "population": 762062,
+      "admission_date": "November 2, 1889",
+      "admission_number": 39,
+      "border": ["Minnesota", "South Dakota", "Montana"]
+    },
+    {
+      "state": "Ohio",
+      "code": "OH",
+      "nickname": "The Buckeye State",
+      "capital_city": "Columbus",
+      "population": 11689100,
+      "admission_date": "March 1, 1803",
+      "admission_number": 17,
+      "border": ["Michigan", "Pennsylvania", "West Virginia", "Kentucky", "Indiana"]
+    },
+    {
+      "state": "Oklahoma",
+      "code": "OK",
+      "nickname": "The Sooner State",
+      "capital_city": "Oklahoma City",
+      "population": 3956971,
+      "admission_date": "November 16, 1907",
+      "admission_number": 46,
+      "border": ["Kansas", "Missouri", "Arkansas", "Texas", "New Mexico", "Colorado"]
+    },
+    {
+      "state": "Oregon",
+      "code": "OR",
+      "nickname": "The Beaver State",
+      "capital_city": "Salem",
+      "population": 4217737,
+      "admission_date": "February 14, 1859",
+      "admission_number": 33,
+      "border": ["Washington", "Idaho", "Nevada", "California"]
+    },
+    {
+      "state": "Pennsylvania",
+      "code": "PA",
+      "nickname": "The Keystone State",
+      "capital_city": "Harrisburg",
+      "population": 12801989,
+      "admission_date": "December 12, 1787",
+      "admission_number": 2,
+      "border": ["New York", "New Jersey", "Delaware", "Maryland", "West Virginia", "Ohio"]
+    },
+    {
+      "state": "Rhode Island",
+      "code": "RI",
+      "nickname": "The Ocean State",
+      "capital_city": "Providence",
+      "population": 1059361,
+      "admission_date": "May 29, 1790",
+      "admission_number": 13,
+      "border": ["Massachusetts", "Connecticut"]
+    },
+    {
+      "state": "South Carolina",
+      "code": "SC",
+      "nickname": "The Palmetto State",
+      "capital_city": "Columbia",
+      "population": 5148714,
+      "admission_date": "May 23, 1788",
+      "admission_number": 8,
+      "border": ["North Carolina", "Georgia"]
+    },
+    {
+      "state": "South Dakota",
+      "code": "SD",
+      "nickname": "The Mount Rushmore State",
+      "capital_city": "Pierre",
+      "population": 884659,
+      "admission_date": "November 2, 1889",
+      "admission_number": 40,
+      "border": ["North Dakota", "Minnesota", "Iowa", "Nebraska", "Wyoming", "Montana"]
+    },
+    {
+      "state": "Tennessee",
+      "code": "TN",
+      "nickname": "The Volunteer State",
+      "capital_city": "Nashville",
+      "population": 6829174,
+      "admission_date": "June 1, 1796",
+      "admission_number": 16,
+      "border": ["Kentucky", "Virginia", "North Carolina", "Georgia", "Alabama", "Mississippi", "Arkansas", "Missouri"]
+    },
+    {
+      "state": "Texas",
+      "code": "TX",
+      "nickname": "The Lone Star State",
+      "capital_city": "Austin",
+      "population": 28995881,
+      "admission_date": "December 29, 1845",
+      "admission_number": 28,
+      "border": ["New Mexico", "Oklahoma", "Arkansas", "Louisiana"]
+    },
+    {
+      "state": "Utah",
+      "code": "UT",
+      "nickname": "The Beehive State",
+      "capital_city": "Salt Lake City",
+      "population": 3205958,
+      "admission_date": "January 4, 1896",
+      "admission_number": 45,
+      "border": ["Idaho", "Wyoming", "Colorado", "New Mexico", "Arizona", "Nevada"]
+    },
+    {
+      "state": "Vermont",
+      "code": "VT",
+      "nickname": "The Green Mountain State",
+      "capital_city": "Montpelier",
+      "population": 623989,
+      "admission_date": "March 4, 1791",
+      "admission_number": 14,
+      "border": ["New Hampshire", "Massachusetts", "New York"]
+    },
+    {
+      "state": "Virginia",
+      "code": "VA",
+      "nickname": "Old Dominion",
+      "capital_city": "Richmond",
+      "population": 8535519,
+      "admission_date": "June 25, 1788",
+      "admission_number": 10,
+      "border": ["Maryland", "West Virginia", "Kentucky", "Tennessee", "North Carolina"]
+    },
+    {
+      "state": "Washington",
+      "code": "WA",
+      "nickname": "The Evergreen State",
+      "capital_city": "Olympia",
+      "population": 7614893,
+      "admission_date": "November 11, 1889",
+      "admission_number": 42,
+      "border": ["Idaho", "Oregon"]
+    },
+    {
+      "state": "West Virginia",
+      "code": "WV",
+      "nickname": "The Mountain State",
+      "capital_city": "Charleston",
+      "population": 1792147,
+      "admission_date": "June 20, 1863",
+      "admission_number": 35,
+      "border": ["Pennsylvania", "Maryland", "Virginia", "Kentucky", "Ohio"]
+    },
+    {
+      "state": "Wisconsin",
+      "code": "WI",
+      "nickname": "The Badger State",
+      "capital_city": "Madison",
+      "population": 5822434,
+      "admission_date": "May 29, 1848",
+      "admission_number": 30,
+      "border": ["Minnesota", "Michigan", "Illinois", "Iowa"]
+    },
+    {
+      "state": "Wyoming",
+      "code": "WY",
+      "nickname": "The Equality State",
+      "capital_city": "Cheyenne",
+      "population": 578759,
+      "admission_date": "July 10, 1890",
+      "admission_number": 44,
+      "border": ["Montana", "South Dakota", "Nebraska", "Colorado", "Utah", "Idaho"]
+    }
+  ]

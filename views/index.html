@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>US States API</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+    h1 { color: #333; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    li { margin: 8px 0; }
+  </style>
+</head>
+<body>
+  <h1>US States REST API</h1>
+  <p>Welcome! Use the <code>/states/</code> endpoint to get started.</p>
+  <h2>Available Endpoints</h2>
+  <ul>
+    <li><code>GET /states/</code> — All states</li>
+    <li><code>GET /states/?contig=true</code> — Contiguous states only</li>
+    <li><code>GET /states/?contig=false</code> — Non-contiguous states (AK, HI)</li>
+    <li><code>GET /states/:state</code> — Single state data</li>
+    <li><code>GET /states/:state/funfact</code> — Random fun fact</li>
+    <li><code>GET /states/:state/capital</code> — Capital city</li>
+    <li><code>GET /states/:state/nickname</code> — Nickname</li>
+    <li><code>GET /states/:state/population</code> — Population</li>
+    <li><code>GET /states/:state/admission</code> — Admission date</li>
+  </ul>
+</body>
+</html>
