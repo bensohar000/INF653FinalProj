@@ -42,7 +42,7 @@ const getFunFact = async (req, res) => {
   res.json({ funfact: random });
 };
 
-// ── GET /states/:state/capital ──────────────────────────
+//GET /states/:state/capital
 const getCapital = (req, res) => {
   res.json({
     state: req.state.state,
@@ -50,7 +50,7 @@ const getCapital = (req, res) => {
   });
 };
 
-// ── GET /states/:state/nickname ─────────────────────────
+//GET /states/:state/nickname
 const getNickname = (req, res) => {
   res.json({
     state: req.state.state,
@@ -58,7 +58,7 @@ const getNickname = (req, res) => {
   });
 };
 
-// ── GET /states/:state/population ──────────────────────
+//GET /states/:state/population
 const getPopulation = (req, res) => {
   res.json({
     state: req.state.state,
@@ -66,7 +66,7 @@ const getPopulation = (req, res) => {
   });
 };
 
-// ── GET /states/:state/admission ────────────────────────
+//GET /states/:state/admission
 const getAdmission = (req, res) => {
   res.json({
     state: req.state.state,
@@ -74,7 +74,7 @@ const getAdmission = (req, res) => {
   });
 };
 
-// ── POST /states/:state/funfact ─────────────────────────
+//POST /states/:state/funfact
 const addFunFact = async (req, res) => {
   if (!req.body.funfacts) {
     return res.status(400).json({ message: 'State fun facts value required' });
@@ -98,7 +98,7 @@ const addFunFact = async (req, res) => {
   res.json(result);
 };
 
-// ── PATCH /states/:state/funfact ────────────────────────
+//PATCH /states/:state/funfact
 const updateFunFact = async (req, res) => {
   if (!req.body.index) {
     return res.status(400).json({ message: 'State fun fact index value required' });
@@ -122,7 +122,7 @@ const updateFunFact = async (req, res) => {
   res.json(result);
 };
 
-// ── DELETE /states/:state/funfact ───────────────────────
+//DELETE /states/:state/funfact
 const deleteFunFact = async (req, res) => {
   if (!req.body.index) {
     return res.status(400).json({ message: 'State fun fact index value required' });
