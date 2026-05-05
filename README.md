@@ -139,15 +139,6 @@ Request body must include `index` (1-based):
 
 ---
 
-## Notes
-
-- The `:state` URL parameter accepts **state abbreviations only** (e.g. `KS`, `TX`, `NY`). Full state names will return a 404.
-- Fun fact indexes in POST/PATCH/DELETE requests are **1-based**, not zero-based.
-- All state data is served from `statesData.json`. Fun facts are stored and retrieved from MongoDB Atlas and merged into responses.
-- A catch-all 404 route handles undefined routes. HTML clients receive a 404 page; JSON clients receive `{ "error": "404 Not Found" }`.
-
----
-
 ## Deployment
 
 This project is deployed on [Render](https://render.com).
