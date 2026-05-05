@@ -90,7 +90,7 @@ The API will be running at `http://localhost:3500`
 | `/states/` | Returns all 50 states data |
 | `/states/?contig=true` | Returns contiguous states only (excludes AK and HI) |
 | `/states/?contig=false` | Returns non-contiguous states only (AK and HI) |
-| `/states/:state` | Returns data for a single state (e.g. `/states/KS`) |
+| `/states/:state` | Returns data for a single state (ex: `/states/KS`) |
 | `/states/:state/funfact` | Returns a random fun fact for the state |
 | `/states/:state/capital` | Returns the state name and capital city |
 | `/states/:state/nickname` | Returns the state name and nickname |
@@ -153,8 +153,8 @@ Request body must include `index` (1-based):
 This project is deployed on [Render](https://render.com).
 
 1. Push your code to GitHub (ensure `.env` is in `.gitignore`)
-2. Create a new Glitch project and import from GitHub
-3. Add your environment variables in Glitch under Settings → Environment Variables:
+2. Create a new Render project and import from GitHub
+3. Add your environment variables in Render under Settings → Environment Variables:
    - `DATABASE_URI`
    - `PORT`
 
