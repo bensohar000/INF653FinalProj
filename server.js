@@ -2,12 +2,21 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const connectDB = require('./config/db');
+const cors = require('cors');
 const path = require('path');
 
 const app = express();
 const PORT = process.env.PORT || 3500;
 
 connectDB();
+
+const allowedOrigins = [
+  'https://dazzling-snickerdoodle-777101.netlify.app'
+];
+
+app.use(cors({
+  origin: allowedOrigins
+}));
 
 app.use(express.json());
 
