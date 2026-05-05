@@ -26,8 +26,12 @@ const getAllStates = async (req, res) => {
 
 // ── GET /states/:state ──────────────────────────────────
 const getState = async (req, res) => {
-  const merged = await mergeState(req.state);
-  res.json(merged);
+  const mongoState = await State.findOne({ stateCode: req.state.code });
+  if (mongoState?.funfacts?.length > 0) {
+    return res.json({ ...req.state, funfacts: mongoState.funfacts });
+  }
+  // Always include funfacts as empty array for single state endpoint
+  res.json({ ...req.state, funfacts: [] });
 };
 
 // ── GET /states/:state/funfact ──────────────────────────
